@@ -58,4 +58,8 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  # TODO: SETUP Selenium for WSL
+  # Capybara.default_driver = :chrome_selenium
+  # https://gist.github.com/danwhitston/5cea26ae0861ce1520695cff3c2c3315  
 end
